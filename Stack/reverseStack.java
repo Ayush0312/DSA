@@ -13,13 +13,12 @@ public class reverseStack {   // Recursion
 
     }
     public static void rev(Stack<Integer> s){
-        if(s.size() > 0){
-            int x = s.pop();
-            rev(s);
-
-            insertAtBottom(s, x);
-        }
+    if(s.size() == 1) return;
+        int x = s.pop();
+        rev(s);
+        insertAtBottom(s, x);
     }
+    
     public static void main(String[] args) {
          Stack<Integer> st = new Stack<>();
 

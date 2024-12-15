@@ -2,9 +2,9 @@ import java.util.*;
 
 public class copyStack {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         Stack<Integer> st = new Stack<>();
 
+        //Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the number of element");
         // int n = sc.nextInt();
 

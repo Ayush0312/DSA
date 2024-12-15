@@ -1,9 +1,7 @@
-import java.util.Scanner;
 import java.util.Stack;
 
 public class insertionStack {    
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         Stack<Integer> st = new Stack<>();
         
         st.push(1);
@@ -29,8 +27,6 @@ public class insertionStack {
             st.push(temp.pop());
         }
         System.out.println(st);
-
-        // Deletion at any index / at bottom
 
 
     }

@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 public class printStack {
-    public static void displayRec(Stack<Integer> s){  // O(n) and O(n)
+    public static void displayRec(Stack<Integer> s){  // O(n) and O(n) using recursion
 
         if(s.isEmpty()){
             return;
