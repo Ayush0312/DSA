@@ -14,7 +14,7 @@ public class insertionStack {
 
 
         // Insertion at any index / bottom
-        int ind = 0;
+        int ind = 1;
         int x = 7;
 
         Stack<Integer> temp = new Stack<>();
